@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gradientred"
+    >
+    <TextView  
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content"
+	android:gravity="center"
+	android:padding="10sp"
+	android:textColor="#000000"
+	android:textSize="25sp"
+	android:textStyle="bold|italic"
+	android:typeface="serif"
+	android:text="Happy Valentine's Day, we love you!!"
+	/>
+    <!--TextView  
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:gravity="center"
+	android:padding="10sp"
+	android:textColor="#000000"
+	android:textSize="25sp"
+	android:textStyle="italic"
+	android:typeface="serif"
+	android:text="We love you!"
+	/-->   
+    <TextView  
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:gravity="right"
+	
+	android:textColor="#000000"
+	android:textSize="25sp"
+	android:textStyle="italic"
+	android:typeface="serif"
+	android:text="-Luke &amp; Symone"
+	/>
+    <ImageView
+	android:src="@drawable/photo"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:padding="10sp"
+	/>
+
+</LinearLayout>
+
